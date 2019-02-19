@@ -17,4 +17,4 @@ scalacOptions ++= Seq(
 )
 
 
-scalafmtOnCompile in Compile := true
+
