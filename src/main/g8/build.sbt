@@ -16,11 +16,5 @@ scalacOptions ++= Seq(
   , "-language:reflectiveCalls"
 )
 
-coverageExcludedPackages := "<empty>;"
-coverageMinimum := 75
-coverageFailOnMinimum := true
-
-scalastyleFailOnError := true
-scalastyleFailOnWarning := true
 
 scalafmtOnCompile in Compile := true
