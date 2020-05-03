@@ -8,9 +8,9 @@ version := "1.0-SNAPSHOT"
 
 lazy val root = project in file(".")
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.2"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.1" % Test
 
 scalacOptions ++= Seq(
     "-unchecked"
